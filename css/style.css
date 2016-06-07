@@ -1,5 +1,5 @@
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0 none;
     font-family: inherit;
     font-size: 100%;
@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0 none;
     padding: 0;
     vertical-align: baseline;
-}
+}*/
 html {
     font-size: 62.5%;
 }
@@ -257,3 +257,94 @@ a:hover, a:focus, a:active {
     cursor: pointer;
     display: none;
 }
+
+
+
+// Here begins my code!
+
+#back-to-menu .main-menu-lines{
+    display: block;
+    height: 41px;
+    left: 42px;
+    padding: 0 0 0 14px;
+    position: fixed;
+    top: 45px;
+    width: 46px;
+    z-index: 11;
+}
+#back-to-menu.gllry-button::before{
+    left:0;
+    top:0;
+}
+.gllry-button::before{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    content: "";
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    z-index: 3;
+}
+
+.gllry-button::after {
+    background-color: #000;
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 40px;
+    z-index: 2;
+}
+#back-to-menu .line::before {
+    content: "";
+    top: -6px;
+}
+#back-to-menu .line::after {
+    content: "";
+    top: 6px;
+}
+#back-to-menu .main-menu-lines {
+    display: block;
+    height: 41px;
+    left: 42px;
+    padding: 0 0 0 14px;
+    position: fixed;
+    top: 45px;
+    width: 46px;
+    z-index: 11;
+}
+#back-to-menu {
+    -moz-user-select: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    left: 40px;
+    padding: 6px;
+    position: fixed;
+    top: 40px;
+    width: 50px;
+    z-index: 10;
+}
+#back-to-menu .main-menu-text {
+    font-size: 14px;
+    margin: 10px 0 0 50px;
+    position: absolute;
+}
+#back-to-menu .line, #back-to-menu .line::before, #back-to-menu .line::after {
+    background-color: rgba(255, 255, 255, 1);
+    height: 2px;
+    position: absolute;
+    width: 18px;
+}
+#back-to-menu .line {
+    top: 20px;
+}
+
+
+/*#back-to-menu .line, #back-to-menu .line::after, #back-to-menu .line::before, #back-to-menu.close .main-menu-lines, .portfolio-gallery, .portfolio-content {
+    transition: all 0.7s cubic-bezier(0.89, -0.02, 0.17, 1.04) 0s;
+}*/
