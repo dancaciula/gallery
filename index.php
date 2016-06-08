@@ -16,6 +16,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
       <div id="wrapper">
@@ -28,6 +31,27 @@
               </div>
 
           </div>
+          <div id="container" class="">
+              <div id="gbox" class="gbox-dynamic">
+                  <div id="content" class="bw--rail post-20 bw_gallery type-bw_gallery status-publish hentry">
+                        <div id="screen" style="width: 8674px; left: -203px;">
+                            <div id="slider">
+                                  <div id="rail" class="rail-next" style="width: 8760.74px;">
+                                      <img class="copyright focus" data-title="Karolina" alt="Karolina" src="http://bwdesk.com/santino/wp-content/uploads/2014/07/5-42.jpg" style="margin-right: 4px; opacity: 0.3;">
+                                      <img class="copyright" data-title="Karolina" alt="Karolina" src="http://bwdesk.com/santino/wp-content/uploads/2014/07/5-33-728x1080.jpg" style="margin-right: 4px; opacity: 1;">
+                                      <img class="copyright" data-title="Karolina again" alt="Karolina again" src="http://bwdesk.com/santino/wp-content/uploads/2014/07/5-52.jpg" style="margin-right: 4px; opacity: 0.3;">
+                                      <img class="copyright" data-title="Untitled" alt="Untitled" src="http://bwdesk.com/santino/wp-content/uploads/2014/07/5-110.jpg" style="margin-right: 4px; opacity: 0.3;">
+                                      <img class="copyright" data-title="Another untitled" alt="Another untitled" src="http://bwdesk.com/santino/wp-content/uploads/2014/07/5-24.jpg" style="margin-right: 4px; opacity: 0.3;">
+                                      <img class="copyright" data-title="Jana" alt="Jana" src="http://bwdesk.com/santino/wp-content/uploads/2014/07/5-1.jpg" style="margin-right: 4px; opacity: 0.3;">
+                                      <img class="copyright" data-title="And Karolina" alt="And Karolina" src="http://bwdesk.com/santino/wp-content/uploads/2014/07/52-720x1080.jpg" style="margin-right: 4px; opacity: 0.3;">
+                                  </div>
+                            </div>
+                        </div>
+                  </div>
+
+              </div>
+
+          </div>
       </div>
 
 
@@ -35,5 +59,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
   </body>
 </html>

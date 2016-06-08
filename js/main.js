@@ -1,7 +1,26 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
+$(document).ready(function()
+                        {
+                            $('#container').mousewheel(function(event) {
+    console.log(event.deltaX, event.deltaY, event.deltaFactor);
+});
+                        });
+    
+    
+    
+    
+    
+//    var $horizontal = $('#content');
+//
+//    $(document).scroll(function () {console.log('caciu');
+//        var s = $(this).scrollTop(),
+//            d = $(document).height(),
+//            c = $(this).height();
+//
+//        scrollPercent = (s / (d - c));
+//
+//        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+//        
+//        $horizontal.css({
+//            'left': position
+//        });
+//    });
