@@ -1,0 +1,107 @@
+/*==========================================================================================
+	
+Media CSS File
+This file contains all styles for responsive layout
+
+==========================================================================================*/
+
+
+/*----------------------------------------------------*/
+/*	1.	> 1919px
+/*----------------------------------------------------*/
+
+@media only screen and (max-width: 1919px) {
+	
+    .bw-menu ul li a {font-size:35px;line-height:90%;}
+    #main-menu .bw-menu ul ul a {font-size:24px;}
+    
+    .bw-menu ul a:after {top:27px;}
+    .bw-menu ul ul a:after {top:18px;}
+    
+}
+
+
+/*----------------------------------------------------*/
+/*	2.	lower that 1280px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 1280px) {
+	.page-holder.fixed-page {width:100%;left:0;margin:0;}
+}
+
+/*----------------------------------------------------*/
+/*	3.	lower that 1024px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+	
+}
+
+/*----------------------------------------------------*/
+/*	4.	> 920px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 920px) {
+    
+    .bw-menus > li {width:100%;padding:0;}
+    #logo {padding-top:50px;}
+    .bw-center-content {float:left;width:100%;}
+    
+    .page-holder.fixed-page {width:100%;margin:0;padding:0;left:0;}
+    .page-holder .page {padding:20px;}
+    
+    .wrap-post {width:100%;float:left;margin:0;left:0;}
+    .wrap-post .inside {padding:0 20px;}
+    .page-404 .search-field {width:92%;}
+    
+    .isotope-portfolio .portfolio-info h2 {font-size:25px;}
+    .isotope-portfolio .portfolio-info p {font-size:18px;}
+    
+    article blockquote:before {left:-30px;}
+    
+}
+
+/*----------------------------------------------------*/
+/*	5.	lower that 768px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+	
+	.gallery-cover h2 {font-size:25px;}
+	.gallery-cover p {font-size:14px;}
+    
+    #main-menu-toggle {top:20px;left:20px;}
+    #main-menu-toggle .main-menu-lines {top:25px;left:22px;}
+    #bmplayer-container {top:60px;left:15px;}
+    
+    .page-holder {width:100%;margin:0;left:0;}
+    
+    .col {width:100%!important;}
+    
+    .wpcf7-form > p {width:100%;margin:0;}
+    
+    .wrap-post .inside {padding:0 50px;}
+    .wrap-post .inside, .wrap-post #sidebar {width:100%;}
+    
+    .page-title h1, .page-title h2, .page-title h3 {font-size:20px;}
+    
+    .comments-area {padding:0;}
+    
+    .comment-form input[type="text"] {width:100%;}
+	
+}
+
+/*----------------------------------------------------*/
+/*	6.	lower that 640px
+/*----------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .page-404 .search-field {width:89%;}
+}
+
+/*----------------------------------------------------*/
+/*	7.	lower that 480px
+/*----------------------------------------------------*/
+
+/*----------------------------------------------------*/
+/*	8.	<= 320px
+/*----------------------------------------------------*/
+
+
+
+
